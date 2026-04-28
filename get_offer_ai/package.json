@@ -1,0 +1,33 @@
+{
+  "name": "ling_sse",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "jiti server & vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@bearbobo/ling": "^0.8.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jiti": "^2.4.2",
+    "jsonuri": "^3.4.5",
+    "marked": "^15.0.7",
+    "microsoft-cognitiveservices-speech-sdk": "^1.43.1",
+    "universal-cookie": "^8.0.1",
+    "vue": "^3.5.13",
+    "vue-codemirror": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/express": "^5.0.1",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.4"
+  }
+}
